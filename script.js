@@ -1,6 +1,6 @@
-let text = "I'm a Front-End Developer..."
-let i = 0
-let speed = 100
+let text = "I'm a Front-End Developer...";
+let i = 0;
+let speed = 100;
 
 function type() {
 	if (i < text.length) {
@@ -8,8 +8,15 @@ function type() {
 		i++;
 		setTimeout(type, speed);
 	}
+
+	// if (i === text.length) {
+	// 	document.querySelector('#par').textContent = ''
+	// 	i = 0;
+	// }
 }
 type();
+
+
 
 /* ---- particles.js config ---- */
 
